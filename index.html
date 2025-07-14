@@ -1,0 +1,27 @@
+<!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Real-Time Chat</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="chat-container">
+      <div class="chat-box">
+        <div class="message" v-for="msg in messages" :key="msg.id">
+          <strong>{{ msg.sender }}:</strong> {{ msg.text }}
+        </div>
+      </div>
+      <div class="input-area">
+        <input v-model="input" @keyup.enter="sendMessage" placeholder="Type a message..." />
+        <button @click="sendMessage">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
