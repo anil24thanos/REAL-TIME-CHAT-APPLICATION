@@ -533,31 +533,6 @@ client.on('close', function clear() {
 });
 ```
 
-### How to connect via a proxy?
+<img width="1356" height="766" alt="Image" src="https://github.com/user-attachments/assets/14c93f70-a8c9-4dd7-aeb5-aa12658636d9" />
 
-Use a custom `http.Agent` implementation like [https-proxy-agent][] or
-[socks-proxy-agent][].
-
-## Changelog
-
-We're using the GitHub [releases][changelog] for changelog entries.
-
-## License
-
-[MIT](LICENSE)
-
-[`buffer.isutf8()`]: https://nodejs.org/api/buffer.html#bufferisutf8input
-[bufferutil]: https://github.com/websockets/bufferutil
-[changelog]: https://github.com/websockets/ws/releases
-[client-report]: http://websockets.github.io/ws/autobahn/clients/
-[https-proxy-agent]: https://github.com/TooTallNate/node-https-proxy-agent
-[node-zlib-bug]: https://github.com/nodejs/node/issues/8871
-[node-zlib-deflaterawdocs]:
-  https://nodejs.org/api/zlib.html#zlib_zlib_createdeflateraw_options
-[permessage-deflate]: https://tools.ietf.org/html/rfc7692
-[server-report]: http://websockets.github.io/ws/autobahn/servers/
-[session-parse-example]: ./examples/express-session-parse
-[socks-proxy-agent]: https://github.com/TooTallNate/node-socks-proxy-agent
-[utf-8-validate]: https://github.com/websockets/utf-8-validate
-[ws-server-options]: ./doc/ws.md#new-websocketserveroptions-callback
-
+<img width="1338" height="715" alt="Image" src="https://github.com/user-attachments/assets/b47a6515-4223-43ed-a5b5-0b1679395816" />
